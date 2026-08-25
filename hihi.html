@@ -1,0 +1,50 @@
+<!-- BẮT ĐẦU ĐOẠN CODE TRÁI TIM -->
+<div class="birthday-container">
+    <div class="heart-icon">❤️</div>
+    <h3 class="birthday-text">Chúc mừng minh nhật Mỹ Diệu nè Tuổi mới luôn vui vẻ, hạnh phúc và bình an nhá 🎉✨</h3>
+</div>
+
+<style>
+    /* Định dạng vùng chứa tổng thể */
+    .birthday-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 30px;
+        background: linear-gradient(135deg, #ffeef2, #fff0f5);
+        border-radius: 15px;
+        margin: 20px auto;
+        max-width: 600px;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+        text-align: center;
+    }
+
+    /* Hiệu ứng trái tim đập và nhấp nháy nhẹ */
+    .heart-icon {
+        font-size: 70px;
+        animation: heartBeat 1.2s infinite ease-in-out;
+        user-select: none;
+    }
+
+    /* Định dạng chữ lời chúc */
+    .birthday-text {
+        font-family: Cambria, Georgia, serif;
+        color: #d63384;
+        font-size: 22px;
+        margin-top: 15px;
+        line-height: 1.5;
+        font-weight: bold;
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+    }
+
+    /* Cài đặt nhịp đập cho hiệu ứng animation */
+    @keyframes heartBeat {
+        0% { transform: scale(1); }
+        20% { transform: scale(1.15); }
+        40% { transform: scale(1); }
+        60% { transform: scale(1.15); }
+        100% { transform: scale(1); }
+    }
+</style>
+<!-- KẾT THÚC ĐOẠN CODE TRÁI TIM -->
